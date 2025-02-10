@@ -12,4 +12,49 @@ Search Employee → Find employees by ID or Name.
 
 Display All Employees → Show a complete list of employees.
 
-## Test Cases
+Test Cases
+
+Test Case 1: Adding Employees (No Employees Initially)
+Display Employees
+Expected Output:
+No employees found.
+  
+Test Case 2: Add Employees
+Input:
+Add Employee (ID=101, Name="Alice", Salary=50000)
+Add Employee (ID=102, Name="Bob", Salary=60000)
+Expected Output:
+Employee Added: ID=101, Name=Alice, Salary=50000
+Employee Added: ID=102, Name=Bob, Salary=60000
+
+Test Case 3: Update Employee Salary
+Input:
+Update Employee (ID=101, New Salary=55000)
+Expected Output:
+Employee ID 101 updated successfully.
+
+Test Case 4: Search Employee by ID
+Input:
+Search Employee by ID=102
+Expected Output:
+Employee Found: ID=102, Name=Bob, Salary=60000
+
+Test Case 5: Remove Employee
+Input:
+Remove Employee (ID=101)
+Expected Output:
+Employee ID 101 removed successfully.
+
+Test Case 6: Display All Employees
+Input:
+Display Employees
+Expected Output:
+ID: 102, Name: Bob, Salary: 60000
+
+Test Case 7: Adding Duplicate Employee ID
+Input:
+Add Employee (ID=101, Name="Charlie", Salary=70000)
+Expected Output:
+Error: Employee with ID 101 already exists.
+
+
