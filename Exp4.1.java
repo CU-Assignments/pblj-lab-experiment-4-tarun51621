@@ -21,11 +21,11 @@ No employees found.
   
 Test Case 2: Add Employees
 Input:
-Add Employee (ID=101, Name="Alice", Salary=50000)
-Add Employee (ID=102, Name="Bob", Salary=60000)
+Add Employee (ID=101, Name="Anish", Salary=50000)
+Add Employee (ID=102, Name="Bobby", Salary=60000)
 Expected Output:
-Employee Added: ID=101, Name=Alice, Salary=50000
-Employee Added: ID=102, Name=Bob, Salary=60000
+Employee Added: ID=101, Name=Anish, Salary=50000
+Employee Added: ID=102, Name=Bobby, Salary=60000
 
 Test Case 3: Update Employee Salary
 Input:
@@ -37,7 +37,7 @@ Test Case 4: Search Employee by ID
 Input:
 Search Employee by ID=102
 Expected Output:
-Employee Found: ID=102, Name=Bob, Salary=60000
+Employee Found: ID=102, Name=Bobby, Salary=60000
 
 Test Case 5: Remove Employee
 Input:
@@ -49,7 +49,7 @@ Test Case 6: Display All Employees
 Input:
 Display Employees
 Expected Output:
-ID: 102, Name: Bob, Salary: 60000
+ID: 102, Name: Bobby, Salary: 60000
 
 Test Case 7: Adding Duplicate Employee ID
 Input:
