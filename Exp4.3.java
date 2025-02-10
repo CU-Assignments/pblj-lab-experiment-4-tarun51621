@@ -6,15 +6,15 @@ This program simulates a ticket booking system where multiple users (threads) tr
 2) Prioritizing VIP Customers → Using thread priorities so VIP users' bookings are processed before regular users.
 
 📌 Core Concepts Used
-1️⃣ Synchronized Booking Method
+️1 Synchronized Booking Method
 The method bookSeat() is marked as synchronized, ensuring that only one thread can access it at a time.
 This prevents race conditions, where two threads might try to book the same seat simultaneously.
   
-2️⃣ Thread Priorities for VIP Customers
+️2 Thread Priorities for VIP Customers
 Threads representing VIP users are assigned Thread.MAX_PRIORITY so they execute first.
 Regular users have Thread.NORM_PRIORITY or Thread.MIN_PRIORITY, making them process later.
-  
-3️⃣ Handling Multiple Users
+
+3 Handling Multiple Users
 Each user trying to book a seat is represented by a thread.
 Users can select a seat, and if it’s already booked, they receive an error message.
 
