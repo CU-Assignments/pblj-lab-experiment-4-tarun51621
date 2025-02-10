@@ -1,4 +1,4 @@
-## Experiment 4.1: Employee Management System
+Experiment 4.1: Employee Management System
 
 The Employee Management System is a simple Java-based application that uses ArrayList to manage employee records. The system allows users to perform the following operations:
 
